@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*Header css*/
+header {
+    background-color: #a93339;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 0;
+}
+
+header img {
+    width: 200px;
+    height: 150px;
+}
+
+/*navar css*/
+nav {
+    margin: 20px;
+    margin-top: 0;
+    background-color: #ededee;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #111;
+    font-size: 20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 0;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 25px;
+    text-align: center;
+    color: #111;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: background-color 0.4s ease-in-out, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu li a:hover {
+    cursor: default;
+    background-color: #bb4242;
+    transform: scale(1.03);
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
