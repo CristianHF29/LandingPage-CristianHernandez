@@ -144,17 +144,20 @@ nav {
     padding: 1rem;
     box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
     text-align: center;
+    cursor: default;
     transition: transform 0.3s ease, box-shadow 0.5s ease;
 }
 
 .product-card a {
     text-decoration: none;
     color: #111;
+    cursor: default;
 }
 
 .product-card img {
     width: 100%;
     height: auto;
+    cursor: default;
     border-radius: 0.5rem;
     margin-bottom: 0.75rem;
 }
