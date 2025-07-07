@@ -18,7 +18,7 @@ This project is a responsive landing page created for **Siman El Salvador**, a l
 
 - **`home.html`** – Main page featuring product highlights, promotional banners, and navigation.
 - **`promotions.html`** – A product-specific page with an image gallery, pricing, and action buttons.
-- **`registration.html`** / **`login.html`** – A clean, minimalistic login page centered on the screen and fully responsive.
+- **`registration.html`** – A clean, minimalistic login page centered on the screen and fully responsive.
 
 ---
 
