@@ -81,6 +81,19 @@ body {
     text-decoration: underline;
 }
 
+.register-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: #a93339;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.register-btn:hover {
+    color: #111;
+}
+
 /*Tablets*/
 @media screen and (max-width: 768px) {
     .login-container {
